@@ -1,5 +1,4 @@
 #include "rbtree.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 void left_rotate(rbtree *t, node_t *x){
