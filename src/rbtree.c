@@ -60,8 +60,8 @@ void right_rotate(rbtree *t, node_t *y){
   y->parent = x;
 
 }
-// 새로운 rbtree를 생성하고
-// root, nil 정보를 가진 포인터를 반환하는 함수
+
+
 rbtree *new_rbtree(void)
 {
   rbtree *p = (rbtree *)calloc(1, sizeof(rbtree));
